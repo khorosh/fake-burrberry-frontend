@@ -1,15 +1,15 @@
+/*Symbols*/
+
+body {
+  font-family: 'Lora', Times, Times New Roman, serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #171717;
+}
+
 header {
   padding: 1rem;
   border-bottom: 1px solid #c6c6c6;
-}
-
-h1 {
-  font-family: Lora, Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 1.25rem;
-  line-height: 1.2;
-  text-align: left;
-  color: #171717;
 }
 
 .logo {
@@ -19,11 +19,106 @@ h1 {
   height: 10px;
 }
 
-@font-face {
-  font-family: 'Raleway';
-  src: url("../fonts/Raleway-Regular.eot");
-  src: url("../fonts/Raleway-Regular.eot?#iefix") format('embedded-opentype'), url("../fonts/Raleway-Regular.svg") format('svg'), url("../fonts/Raleway-Regular.ttf") format('truetype'), url("../fonts/Raleway-Regular.woff") format('woff');
-  font-weight: normal;
-  font-style: normal
+.button-primary {
+  
+}
+
+.button-secondary {
+  
+}
+
+/* Product Page */
+
+.product-title {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.product-gallery {
+  display: flex;
+  margin-top: 1rem;
+  overflow-x: scroll;
+}
+
+.product-info-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.product-info-items__price {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2;
+  margin-top: 1rem;
+}
+
+.product-info-items__articul,
+.product-info-current-color {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.33;
+}
+
+.product-info-current-color {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.button-color__black {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #000000;
+  border: solid 1px #000000;
+  font-size: 0;
+}
+
+.button-color__honey {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #cfa880;
+  font-size: 0;
+}
+
+.button-color__active {
+  border: solid 1px #232122;
+}
+
+
+
+.accordion {
+
+}
+
+.accordion__button {
+  display: flex;
+  flex-basis: 100%;
+  padding: 0;
+}
+
+.accordion__button::after {
+  position: absolute;
+  content: url(media/triangle.svg);
+  right: 1rem;
+}
+
+.accordion__title {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+.product-recommendations-wrap {
+  display: flex;
+  flex-flow: row wrap;
 }
 

@@ -10,3 +10,4 @@ yarn-error.log*
 .Trashes
 .AppleDB
 .AppleDesktop
+.vscode
