@@ -1,0 +1,29 @@
+header {
+  padding: 1rem;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+h1 {
+  font-family: Lora, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  text-align: left;
+  color: #171717;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 138px;
+  height: 10px;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/Raleway-Regular.eot");
+  src: url("../fonts/Raleway-Regular.eot?#iefix") format('embedded-opentype'), url("../fonts/Raleway-Regular.svg") format('svg'), url("../fonts/Raleway-Regular.ttf") format('truetype'), url("../fonts/Raleway-Regular.woff") format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
