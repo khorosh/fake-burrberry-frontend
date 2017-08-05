@@ -279,14 +279,12 @@ header {
 footer {
   background-color: #f3f3f3;
   padding: 2rem 1rem 2rem 1rem;
-}
-
-.footer-buttons {
   display: flex;
-  flex-flow: column wrap;
+  flex-wrap: wrap;
 }
 
-.footer-buttons__button-transparent {
+.footer__button-transparent {
+  display: block;
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
@@ -294,15 +292,8 @@ footer {
   color: #999999;
   background: transparent;
   padding: 0;
-  text-align: left;
   border: none;
   margin-bottom: 1rem;
-}
-
-.footer-help {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
 }
 
 .footer-help__title {
@@ -312,10 +303,12 @@ footer {
 }
 
 .footer-help__button-transparent {
-  font-weight: 400i;
+  display: flex;
+  font-family: 'Lora', 'Times New Roman', Times, serif;
   font-style: italic;
   font-size: 0.875rem;
   line-height: 1.0625rem;
+  padding: 0;
   text-align: center;
   background: transparent;
   border: none;
