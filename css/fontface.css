@@ -13,3 +13,11 @@
   font-weight: 500;
   font-style: normal
 }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/Raleway-Bold.eot");
+  src: url("../fonts/Raleway-Bold.eot?#iefix") format('embedded-opentype'), url("../fonts/Raleway-Bold.svg") format('svg'), url("../fonts/Raleway-Bold.ttf") format('truetype'), url("../fonts/Raleway-Bold.woff") format('woff');
+  font-weight: 700;
+  font-style: normal
+}

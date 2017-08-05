@@ -43,33 +43,33 @@
       <img src="media/img/Long-Cotton-Gabardine-Car-Coat-4.jpg" alt="">
     </div>
     
-    <section class="product-info">
-      <section class="product-info-items">
-        <h2 class="product-info-items__price">110 000 руб.</h2>
-        <p class="product-info-items__articul">Item 39428531</p>
+    <section class="product-data">
+      <section class="product-data-info">
+        <h2 class="product-data-info__price">110 000 руб.</h2>
+        <p class="product-data-info__articul">Item 39428531</p>
       </section>
 
-      <p class="product-info-current-color">Colour: Honey</p>
+      <p class="product-data-current-color">Colour: Honey</p>
 
-      <div class="product-info-colors">
-        <button class="button-color__black" type="button">
+      <div class="product-data-buttons-color">
+        <button class="product-data-buttons-color__black" type="button">
           Black
         </button>
-        <button class="button-color__honey button-color__active" type="button">
+        <button class="product-data-buttons-color__honey product-data-buttons-color__active" type="button">
           Honey
         </button>
       </div>
 
-      <hr class="">
+      <hr class="product-data-seporator">
 
-      <div class="">
-        <button class="button-primary" type="button">
+      <div class="product-data-buttons">
+        <button class="button button-primary" type="button">
           Select a size
         </button>
-        <button class="button-secondary" type="button">
+        <button class="button button-secondary" type="button">
           Find in store
         </button>
-        <button class="" type="button">
+        <button class="button product-data-buttons__button-transparent" type="button">
           Need size help?
         </button>
       </div>
@@ -80,7 +80,7 @@
         <h2 class="accordion__title">Description</h2>
       </button>
 
-      <div class="accordion__text">
+      <div class="accordion__content">
         <p>A refined car coat crafted in protective cotton gabardine.</p>
         <p>Invented by Thomas Burberry in 1879, cotton gabardine is a tightly woven and breathable fabric that protects against wind and rain.</p>
         <p>Raglan sleeves and a concealed button closure complement the clean tailored lines.</p>
@@ -100,66 +100,77 @@
     </section>
 
     <section class="accordion">
-      <button class="accordion_button" type="button">
+      <button class="accordion__button" type="button">
         <h2 class="accordion__title">Shipping & Returns</h2>
       </button>
     </section>
 
-    <section class="">
-      <h2 class="">We recommend</h2>
-    
-      <div class="product-recommendations-wrap">
-        <a class="" href="">
-          <img src="media/img/r-1.jpg" alt="Emroided Hooded">
-          <h3 class="">Emroided Hooded</h2>
-          <p>27 000 руб.</p>
-        </a>
-        <a class="" href="">
-          <img src="media/img/r-2.jpg" alt="Relaxed Fit Stretch Jeans">
-          <h3 class="">Relaxed Fit Stretch Jeans</h2>
-          <p>25 500 руб.</p>
-        </a>
-        <a class="" href="">
-          <img src="media/img/r-3.jpg" alt="Leather and House Check">
-          <h3 class="">Leather and House Check</h2>
-          <p>120 000 руб.</p>
-        </a>
-        <a class="" href="">
-          <img src="media/img/r-4.jpg" alt="Leather Wingtip Check">
-          <h3 class="">Leather Wingtip Check</h2>
-          <p>46 000 руб.</p>
-        </a>
+    <section class="product-recommendations">
+      <h2 class="product-recommendations__title">We recommend</h2>
+      <div class="row">
+        <div class="col-xs-6 col-md-3">
+          <a class="product-recommendation-card">
+            <img class="product-recommendation-card__img" src="media/img/r-1.jpg" alt="Emroided Hooded">
+            <h3 class="product-recommendation-card__name">Emroided Hooded</h2>
+            <p class="product-recommendation-card__price">27 000 руб.</p>
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">        
+          <a class="product-recommendation-card">
+            <img class="product-recommendation-card__img" src="media/img/r-2.jpg" alt="Relaxed Fit Stretch Jeans">
+            <h3 class="product-recommendation-card__name">Relaxed Fit Stretch Jeans</h2>
+            <p class="product-recommendation-card__price">25 500 руб.</p>
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">        
+          <a class="product-recommendation-card">
+            <img class="product-recommendation-card__img" src="media/img/r-3.jpg" alt="Leather and House Check">
+            <h3 class="product-recommendation-card__name">Leather and House Check</h2>
+            <p class="product-recommendation-card__price">120 000 руб.</p>
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">        
+          <a class="product-recommendation-card">
+            <img class="product-recommendation-card__img" src="media/img/r-4.jpg" alt="Leather Wingtip Check">
+            <h3 class="product-recommendation-card__name">Leather Wingtip Check</h2>
+            <p class="product-recommendation-card__price">46 000 руб.</p>
+          </a>
+        </div>
       </div>
     </section>
 
-    <section class="">
-      <h2 class="">More for you</h2>
+    <section class="product-recommendations">
+      <h2 class="product-recommendations-more__title">More for you</h2>
 
-      <div class="">
-        <a class="" href="">
+      <div class="product-recommendations-more">
+        <a class="product-recommendations-more__name">
           Men’s Black Trench Coats
         </a>
-        <a class="" href="">
+        <a class="product-recommendations-more__name">
           Men’s Short Trench Coats
         </a>
-        <a class="" href="">
+        <a class="product-recommendations-more__name">
           Men’s Long Trench Coats
         </a>
       </div>
     </section>
 
   <footer>
-    <button class="" type="button">
-      Shipping Country: Russian Federation
-    </button>
-    <button class="" type="button">
-      Language: English
-    </button>
+    <div class="footer-buttons">
+      <button class="footer-buttons__button-transparent" type="button">
+        Shipping Country: Russian Federation
+      </button>
+      <button class="footer-buttons__button-transparent" type="button">
+        Language: English
+      </button>
+    </div>
 
-    <h4 class="">Need help?</h2>
-    <button class="" type="button">
-      Find out more and contact us
-    </button>>
+    <div class="footer-help">
+      <h4 class="footer-help__title">Need help?</h2>
+      <button class="footer-help__button-transparent" type="button">
+        Find out more and contact us
+      </button>
+    </div>
   </footer>
 </body>
 
