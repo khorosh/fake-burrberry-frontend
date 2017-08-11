@@ -60,6 +60,7 @@ header {
 }
 
 .product-gallery img {
+  flex-shrink: 1;
   width: auto;
   height: 400px;
 }
