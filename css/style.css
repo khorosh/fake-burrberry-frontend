@@ -23,7 +23,7 @@ header {
   flex-basis: 100%;
   margin-top: 1rem;
   padding: 1rem;
-  font-family: 'Raleway', Helvetica, Arial, sans-serif; 
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
   font-size: 0.75rem;
   line-height: 1.33;
   text-transform: uppercase;
@@ -60,7 +60,7 @@ header {
 }
 
 .product-gallery img {
-  width: 300px;
+  width: auto;
   height: 400px;
 }
 
@@ -236,7 +236,7 @@ header {
 }
 
 .product-recommendation-card {
-  display: block;
+  display: block; 
   margin-bottom: 2rem;
 }
 
