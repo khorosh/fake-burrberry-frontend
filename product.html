@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
   <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500,700">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700">
 
   <link rel="shortcut icon" type="image/x-icon" href="media/favicon.ico">
   <link rel="apple-touch-icon" sizes="120x120" href="media/touch-icon-120x120.png">
@@ -33,8 +33,10 @@
   </header>
   
   <main>
-    <h1 class="product-title">Long Cotton Gabardine Car Coat</h1>
-    <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <h1 class="product-title">Long Cotton Gabardine Car Coat</h1>
+      </div>        
       <div class="row">
         <div class="col-xs-12 col-sm-7">
           <div class="product-gallery">
@@ -67,7 +69,7 @@
       </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col-xs-12 col-lg-4">
           <section class="accordion-open">
@@ -126,43 +128,45 @@
       </div>
     </div>
 
-    <section class="product-recommendations">
-      <h2 class="product-recommendations__title">We recommend</h2>
-      <div class="row">
-        <div class="col-xs-6 col-sm-3">
-          <a class="product-recommendation-card">
-            <img class="product-recommendation-card__img" src="media/img/r-1.jpg" alt="Emroided Hooded">
-            <h3 class="product-recommendation-card__name">Emroided Hooded</h2>
-            <p class="product-recommendation-card__price">27 000 руб.</p>
-          </a>
+    <div class="container">
+      <section class="product-recommendations">      
+        <h2 class="product-recommendations__title">We recommend</h2>
+        <div class="row">
+          <div class="col-xs-6 col-sm-3">
+            <a class="product-recommendation-card">
+              <img class="product-recommendation-card__img" src="media/img/r-1.jpg" alt="Emroided Hooded">
+              <h3 class="product-recommendation-card__name">Emroided Hooded</h2>
+              <p class="product-recommendation-card__price">27 000 руб.</p>
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3">        
+            <a class="product-recommendation-card">
+              <img class="product-recommendation-card__img" src="media/img/r-2.jpg" alt="Relaxed Fit Stretch Jeans">
+              <h3 class="product-recommendation-card__name">Relaxed Fit Stretch Jeans</h2>
+              <p class="product-recommendation-card__price">25 500 руб.</p>
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3">        
+            <a class="product-recommendation-card">
+              <img class="product-recommendation-card__img" src="media/img/r-3.jpg" alt="Leather and House Check">
+              <h3 class="product-recommendation-card__name">Leather and House Check</h2>
+              <p class="product-recommendation-card__price">120 000 руб.</p>
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3">        
+            <a class="product-recommendation-card">
+              <img class="product-recommendation-card__img" src="media/img/r-4.jpg" alt="Leather Wingtip Check">
+              <h3 class="product-recommendation-card__name">Leather Wingtip Check</h2>
+              <p class="product-recommendation-card__price">46 000 руб.</p>
+            </a>
+          </div>
         </div>
-        <div class="col-xs-6 col-sm-3">        
-          <a class="product-recommendation-card">
-            <img class="product-recommendation-card__img" src="media/img/r-2.jpg" alt="Relaxed Fit Stretch Jeans">
-            <h3 class="product-recommendation-card__name">Relaxed Fit Stretch Jeans</h2>
-            <p class="product-recommendation-card__price">25 500 руб.</p>
-          </a>
-        </div>
-        <div class="col-xs-6 col-sm-3">        
-          <a class="product-recommendation-card">
-            <img class="product-recommendation-card__img" src="media/img/r-3.jpg" alt="Leather and House Check">
-            <h3 class="product-recommendation-card__name">Leather and House Check</h2>
-            <p class="product-recommendation-card__price">120 000 руб.</p>
-          </a>
-        </div>
-        <div class="col-xs-6 col-sm-3">        
-          <a class="product-recommendation-card">
-            <img class="product-recommendation-card__img" src="media/img/r-4.jpg" alt="Leather Wingtip Check">
-            <h3 class="product-recommendation-card__name">Leather Wingtip Check</h2>
-            <p class="product-recommendation-card__price">46 000 руб.</p>
-          </a>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
-    <section class="product-recommendations">
+    <section class="product-recommendations-more">
       <h2 class="product-recommendations-more__title">More for you</h2>
-      <div class="product-recommendations-more">
+      <div class="product-recommendations-more__links">
         <a class="product-recommendations-more__name">Men’s Black Trench Coats</a>
         <a class="product-recommendations-more__name">Men’s Short Trench Coats</a>
         <a class="product-recommendations-more__name">Men’s Long Trench Coats</a>
@@ -171,10 +175,59 @@
   </main>
 
   <footer class="product-footer">
-    <button class="footer__button-transparent" type="button">Shipping country: Russian Federation</button>
-    <button class="footer__button-transparent" type="button">Language: English</button>
-    <h4 class="footer-help__title">Need help?</h2>
-    <a class="footer-help__button-transparent">Find out more and contact us</a>
+    <div class="container">
+      <div class="row">
+        <div class="footer-links">
+          <div class="col-sm-3">
+            <div class="footer-links__block">
+              <h3 class="footer-links__title">Customer Service</h2>
+                <div class="footer-links-names">
+                  <a class="footer-links__name">Contact Us</a>
+                  <a class="footer-links__name">Payment</a>
+                  <a class="footer-links__name">Shipping</a>
+                  <a class="footer-links__name">Returns</a>
+                  <a class="footer-links__name">Faqs</a>
+                  <a class="footer-links__name">Live Chat</a>
+                  <a class="footer-links__name">The Burberry App</a>
+                  <a class="footer-links__name">Store Locator</a>
+                </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="footer-links__block">
+              <h3 class="footer-links__title">Our Company</h2>
+                <div class="footer-links-names">
+                  <a class="footer-links__name">Our History</a>
+                  <a class="footer-links__name">Burberry Group Plc</a>
+                  <a class="footer-links__name">Careers</a>
+                  <a class="footer-links__name">Corporate Responsibility</a>
+                  <a class="footer-links__name">Site Map</a>
+                </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="footer-links__block">
+              <h3 class="footer-links__title">Legal &amp;	Cookies</h2>
+                <div class="footer-links-names">
+                  <a class="footer-links__name">Terms &amp; Conditions</a>
+                  <a class="footer-links__name">Privacy Policy</a>
+                  <a class="footer-links__name">Cookie Policy</a>
+                  <a class="footer-links__name">Accessibility Statement</a>
+                  <a class="footer-links__name">Japan Only - SCTL indications</a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-info">
+        <button class="footer-info__button-transparent" type="button">Shipping country: Russian Federation</button>
+        <button class="footer-info__button-transparent" type="button">Language: English</button>
+      </div>
+    </div>
+    <div class="footer-help">
+      <h4 class="footer-help__title">Need help?</h2>
+      <a class="footer-help__button-transparent">Find out more and contact us</a>
+    </div>
   </footer>
 </body>
 

@@ -42,6 +42,11 @@ body {
 
 /* Product Page */
 
+.minus-rem {
+  padding-bottom: -.5rem;
+  padding-right: -.5rem;
+}
+
 .product-header {
   padding: 1rem;
   border-bottom: 1px solid #c6c6c6;
@@ -86,7 +91,7 @@ body {
 @media screen and (min-width: 48rem) {
   .product-gallery {
     margin-top: 0.5rem;
-    margin-left: -.5rem;
+    margin-left: 0rem;
     margin-right: 0rem;
   }
 
@@ -209,7 +214,7 @@ body {
 @media screen and (min-width: 48rem) {
   .accordion-open {
     border-top: none;
-    padding: 1.5rem 0.5rem 3rem;
+    padding: 1.5rem 1rem 3rem;
   }
 }
 
@@ -289,6 +294,13 @@ body {
     width: auto;
     height: 324px;
     margin-left: -.5rem;
+    object-fit: contain;
+  }
+}
+
+@media screen and (min-width:64rem) {
+  .accordion-delivery__img {
+    height: 422px;
   }
 }
 
@@ -331,6 +343,17 @@ body {
   padding-left: 1rem;
 }
 
+.product-recommendations-more {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media screen and (min-width:48rem) {
+  .product-recommendations-more {
+    display: none;
+  }
+}
+
 .product-recommendations__title,
 .product-recommendations-more__title {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
@@ -344,6 +367,13 @@ body {
 
 .product-recommendations__title {
   margin-top: 3rem;
+}
+
+@media screen and (min-width:48rem) {
+  .product-recommendations {
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+  }
 }
 
 .product-recommendations-more__title {
@@ -379,7 +409,7 @@ body {
   margin: 0;
 }
 
-.product-recommendations-more {
+.product-recommendations-more__links {
   display: flex;
   flex-flow: column wrap;
   margin-bottom: 3.5rem;
@@ -395,8 +425,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-
-/*Footer*/
+/* Footer*/
 
 .product-footer {
   background-color: #f3f3f3;
@@ -405,7 +434,66 @@ body {
   flex-direction: column;
 }
 
-.footer__button-transparent {
+@media screen and (min-width:48rem) {
+  .product-footer {
+    padding: 2rem 0rem;
+  }
+}
+
+.footer-links {
+  display: none;
+}
+
+@media screen and (min-width:48rem) {
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.footer-links__block {
+  display: block;
+}
+
+.footer-links-names {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links__title {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: left;
+  background-color: red;
+  margin-bottom: 1rem;
+}
+
+.footer-links__name {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-align: left;
+  line-height: 1rem;
+  color: #999999;
+  background-color: red;
+  margin-bottom: 0.75rem;
+}
+
+@media screen and (min-width:48rem) {
+  .footer-info { 
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width:48rem) {
+  .footer-help {
+    display: none;
+  }
+}
+
+.footer-info__button-transparent {
   display: block;
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   font-size: 0.75rem;
